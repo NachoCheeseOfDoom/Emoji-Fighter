@@ -1,8 +1,8 @@
-let fighters = ["🐉", "🐥", "🐊", "💩", "🦍", "🐢", "🐩",
+const fighters = ["🐉", "🐥", "🐊", "💩", "🦍", "🐢", "🐩",
   "☠️", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷", "🐆", "🦕", "🦁"]
 
-let stageEl = document.getElementById("stage")
-let fightButton = document.getElementById("fightButton")
+const stageEl = document.getElementById("stage")
+const fightButton = document.getElementById("fightButton")
 
 fightButton.addEventListener("click", function () {
   // Challenge:
